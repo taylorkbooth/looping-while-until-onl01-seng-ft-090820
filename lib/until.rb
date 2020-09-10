@@ -1,12 +1,7 @@
 def using_until
-  levitation_force = 0
- 
-  until levitation_force < 7
-  levitation_force += 1
-    puts " #{num_of_hotdogs_eaten} Wingardium Leviosa"
-
- 
-    puts "You now have #{num_of_hotdogs_eaten} Wingardium Leviosa"
+  counter = 6
+  until counter == 10
+    puts "The current number is less than 20."
+  counter += 1
   end
 end
-
