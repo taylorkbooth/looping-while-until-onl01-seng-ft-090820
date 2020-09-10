@@ -1,5 +1,5 @@
 def using_until
-  counter = 0
+  levitation_force = 0
 until counter == 10
   puts 'Wingardium Leviosa'
   counter += 1
